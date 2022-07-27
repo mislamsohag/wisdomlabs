@@ -1,0 +1,118 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h3 {
+    color: #444444;
+}
+
+p,
+li,
+a {
+    color: #666666;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 150%;
+    font-size: normal;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    padding: 1rem 3rem;
+    border: 2rem;
+    border: none;
+    border-radius: .5rem;
+    line-height: 150%;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-style: normal;
+    font-size: 1.6rem;
+    font-weight: normal;
+    background-color: #951A1D;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #666666;
+    transition: all .3s;
+}
+
+/* header with nav Section */
+
+header {
+    padding: 0 3rem;
+    width: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+}
+
+header nav .logo img {
+    height: 6rem;
+    width: 7rem;
+}
+
+header nav .menu {
+    display: flex;
+}
+
+header nav .menu a {
+    margin-left: 2rem;
+}
+
+header nav .menu a li {
+    font-size: 1.8rem;
+    line-height: 3.6rem;
+    transition: all 0.2s;
+}
+
+header nav .menu a li .d-arrow {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+}
+
+header nav .menu a li:hover {
+    color: #951a1d;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav-right a li {
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+/* -------------hero Section ------------------ */
