@@ -116,3 +116,55 @@ header nav .menu a li:hover {
 }
 
 /* -------------hero Section ------------------ */
+.hero-section {
+    padding: 0 5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+/*---------------- Hero Left ------------------ */
+.hero-section .hero-content {
+    width: 50%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-section .hero-content h1 {
+    width: 100%;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    text-transform: capitalize;
+}
+
+.hero-section .hero-content h3 {
+    width: 100%;
+    font-size: 1.8rem;
+    line-height: 3rem;
+    font-weight: normal;
+    text-transform: capitalize;
+    margin-bottom: 5rem;
+}
+
+.hero-section .hero-content p {
+    width: 90%;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+/* -------------- Hero Img --------------------- */
+.hero-section .hero-img {
+    width: 50%;
+
+}
+
+.hero-section .hero-img img {
+    width: 100%;
+    height: 100%;
+}
