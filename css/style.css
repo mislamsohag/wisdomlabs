@@ -61,10 +61,10 @@ button {
 button:hover {
     background-color: #666666;
     transition: all .3s;
+
 }
 
 /* header with nav Section */
-
 header {
     padding: 0 3rem;
     width: 100%;
@@ -117,19 +117,32 @@ header nav .menu a li:hover {
 
 /* -------------hero Section ------------------ */
 .hero-section {
-    padding: 0 5%;
+    padding: 1rem 5%;
     width: 100%;
     height: 100%;
+    /* margin-bottom: 2rem; */
+    background-color: #F7F7F7;
+}
+
+.hero-section .hero-arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 1rem; */
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.hero-section .hero-main-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5rem;
 }
 
 /*---------------- Hero Left ------------------ */
 .hero-section .hero-content {
     width: 50%;
-    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,7 +162,7 @@ header nav .menu a li:hover {
     line-height: 3rem;
     font-weight: normal;
     text-transform: capitalize;
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .hero-section .hero-content p {
@@ -158,10 +171,37 @@ header nav .menu a li:hover {
     line-height: 2rem;
 }
 
-/* -------------- Hero Img --------------------- */
+.hero-section .hero-content .ceo {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.ceo p {
+    width: 90%;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    margin-left: 1.5rem;
+}
+
+.ceo img {
+    width: 6rem;
+    height: 6rem;
+}
+
+.ceo .ceo-content {
+    font-weight: 700;
+}
+
+/* -------------- Hero right (Img) --------------------- */
 .hero-section .hero-img {
     width: 50%;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-section .hero-img img {
