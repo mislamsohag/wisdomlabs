@@ -21,6 +21,18 @@ h3 {
     color: #444444;
 }
 
+h1 {
+    width: 100%;
+    font-size: 3rem;
+    line-height: 3.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 1rem 0;
+}
+
 p,
 li,
 a {
@@ -61,7 +73,6 @@ button {
 button:hover {
     background-color: #666666;
     transition: all .3s;
-
 }
 
 /* header with nav Section */
@@ -149,13 +160,6 @@ header nav .menu a li:hover {
     align-items: flex-start;
 }
 
-.hero-section .hero-content h1 {
-    width: 100%;
-    font-size: 3.5rem;
-    line-height: 3.5rem;
-    text-transform: capitalize;
-}
-
 .hero-section .hero-content h3 {
     width: 100%;
     font-size: 1.8rem;
@@ -196,7 +200,7 @@ header nav .menu a li:hover {
     font-weight: 700;
 }
 
-/* -------------- Hero right (Img) --------------------- */
+/* ---------- Hero right (Img) ------------- */
 .hero-section .hero-img {
     width: 50%;
     display: flex;
@@ -205,6 +209,57 @@ header nav .menu a li:hover {
 }
 
 .hero-section .hero-img img {
+    width: 90%;
+    height: 90%;
+}
+
+/* ---------- Product Section -------------- */
+.product-section {
+    padding: 1rem 5%;
     width: 100%;
     height: 100%;
+}
+
+.products-top {
+    width: 100%;
+    height: 100%;
+    padding: 2rem 3rem;
+    text-align: center;
+}
+
+.products-top p {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+
+.product-section .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.products .product-card {
+    background-color: #efefef;
+    border: 1px #951A1D solid;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.products .product-card img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.product-section .goast-btn {
+    border: none;
+    background-color: transparent;
+    color: #951a1d;
+
+
 }
